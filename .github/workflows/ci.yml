@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Lint
+        run: ruff check app scripts tests
+
+      - name: Run tests (incl. golden-set eval)
+        env:
+          LLM_PROVIDER: mock
+        run: pytest -v
+
+      - name: Smoke test — boot the API
+        env:
+          LLM_PROVIDER: mock
+        run: |
+          python -m uvicorn app.main:app --port 8000 &
+          sleep 8
+          curl -fsS http://localhost:8000/health
+          curl -fsS -X POST http://localhost:8000/claims \
+            -H 'Content-Type: application/json' \
+            -d '{"claimant_name":"Smoke Test","policy_number":"MOT-P-10001","policy_start_date":"2025-01-01","incident_date":"2026-03-10","incident_description":"Car bumper dented in a parking collision.","claimed_amount":8500,"documents":[{"name":"repair_estimate.pdf","content":"Repair estimate: bumper replacement Rs. 8,500"}]}' \
+            | grep -o '"status":"auto_approved"'
+          kill %1
