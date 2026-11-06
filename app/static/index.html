@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Claims Triage — AI Insurance Claims Triage Agent</title>
+  <link rel="stylesheet" href="/static/dashboard.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div>
+        <h1>🛡️ Claims Triage</h1>
+        <p class="subtitle">AI Insurance Claims Triage Agent — multi-agent triage with human-in-the-loop review</p>
+      </div>
+      <div class="topbar-actions">
+        <span id="llm-badge" class="badge badge-info" title="LLM provider in use">LLM: …</span>
+        <button id="refresh-btn" class="btn btn-secondary" type="button">↻ Refresh</button>
+        <a class="btn btn-secondary" href="/docs">API docs</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Metrics -->
+    <section class="metrics" aria-label="Overview">
+      <div class="metric-card">
+        <div class="metric-label">Claims triaged</div>
+        <div class="metric-value" id="m-total">—</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Autonomous triage rate</div>
+        <div class="metric-value" id="m-autonomous">—</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Avg time-to-decision</div>
+        <div class="metric-value" id="m-avg-ms">—</div>
+      </div>
+      <div class="metric-card metric-card--warn">
+        <div class="metric-label">Pending review</div>
+        <div class="metric-value" id="m-pending">—</div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <!-- Submit claim -->
+      <section class="card" aria-label="Submit a claim">
+        <h2>Submit a claim</h2>
+        <form id="claim-form">
+          <label>Claimant name
+            <input name="claimant_name" type="text" required placeholder="Aarav Sharma">
+          </label>
+          <label>Policy number
+            <input name="policy_number" type="text" required placeholder="MOT-P-10001">
+          </label>
+          <div class="form-row">
+            <label>Policy start date
+              <input name="policy_start_date" type="date" value="2025-01-01">
+            </label>
+            <label>Incident date
+              <input name="incident_date" type="date" value="2026-03-10">
+            </label>
+          </div>
+          <label>Claim type (hint — the agent classifies it anyway)
+            <select name="claim_type_hint">
+              <option value="">Auto-detect</option>
+              <option value="motor">Motor</option>
+              <option value="health">Health</option>
+              <option value="property">Property</option>
+              <option value="travel">Travel</option>
+            </select>
+          </label>
+          <label>Incident description
+            <textarea name="incident_description" rows="3" required
+              placeholder="Car bumper dented in a minor parking collision."></textarea>
+          </label>
+          <label>Claimed amount (₹)
+            <input name="claimed_amount" type="number" min="0" step="1" required placeholder="8500">
+          </label>
+          <label>Supporting document (optional) — paste extracted text
+            <input name="document_name" type="text" placeholder="repair_estimate.pdf">
+            <textarea name="document_text" rows="2"
+              placeholder="Repair estimate: bumper replacement Rs. 8,500"></textarea>
+          </label>
+          <label>Or upload text files (.txt, .md, .csv)
+            <input id="document-files" type="file" multiple accept=".txt,.md,.csv,.json">
+          </label>
+          <button class="btn btn-primary" type="submit">Triage claim →</button>
+          <p id="form-status" class="form-status" role="status"></p>
+        </form>
+      </section>
+
+      <!-- Review queue -->
+      <section class="card" aria-label="Review queue">
+        <h2>Review queue <span class="count-pill" id="queue-count">0</span></h2>
+        <p class="muted">Claims waiting for a human decision. Denials can only be
+          confirmed here — the agents can only <em>propose</em> them.</p>
+        <ul id="queue-list" class="queue-list"></ul>
+      </section>
+    </div>
+
+    <!-- Claims table -->
+    <section class="card" aria-label="All claims">
+      <div class="section-head">
+        <h2>All claims</h2>
+        <div class="filters">
+          <select id="filter-status" aria-label="Filter by status">
+            <option value="">All statuses</option>
+            <option value="auto_approved">Auto-approved</option>
+            <option value="pending_review">Pending review</option>
+            <option value="approved">Approved</option>
+            <option value="denied">Denied</option>
+            <option value="info_requested">Info requested</option>
+          </select>
+          <select id="filter-type" aria-label="Filter by type">
+            <option value="">All types</option>
+            <option value="motor">Motor</option>
+            <option value="health">Health</option>
+            <option value="property">Property</option>
+            <option value="travel">Travel</option>
+          </select>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Claim</th>
+              <th>Type</th>
+              <th>Amount</th>
+              <th>Decision</th>
+              <th>Status</th>
+              <th>Anomaly</th>
+              <th>Created</th>
+            </tr>
+          </thead>
+          <tbody id="claims-body">
+            <tr><td colspan="7" class="muted">Loading…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Claim detail -->
+    <section class="card" id="detail-card" aria-label="Claim detail" hidden>
+      <div class="section-head">
+        <h2 id="detail-title">Claim detail</h2>
+        <button class="btn btn-secondary" id="detail-close" type="button">✕ Close</button>
+      </div>
+      <div id="detail-body"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built with FastAPI, LangGraph, Qdrant and Azure OpenAI ·
+      <a href="/docs">API docs</a> ·
+      <a href="https://github.com/ProNoob-Dev/ai-insurance-claims-triage-agent">GitHub</a>
+    </p>
+  </footer>
+
+  <script src="/static/dashboard.js"></script>
+</body>
+</html>

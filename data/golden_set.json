@@ -1,0 +1,374 @@
+[
+  {
+    "claimant_name": "Aarav Sharma",
+    "policy_number": "MOT-P-10001",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Car bumper dented in a minor parking collision. Repair estimate attached.",
+    "claimed_amount": 8500,
+    "documents": [
+      {
+        "name": "repair_estimate.pdf",
+        "content": "Repair estimate: bumper replacement Rs. 8,500",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G01-motor-bumper",
+    "expected_decision": "auto_approve"
+  },
+  {
+    "claimant_name": "Priya Patel",
+    "policy_number": "MOT-P-10002",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Windshield cracked by a stone on the highway. Windshield replacement needed.",
+    "claimed_amount": 12000,
+    "documents": [
+      {
+        "name": "repair_estimate.pdf",
+        "content": "Windshield replacement Rs. 12,000",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G02-motor-windshield",
+    "expected_decision": "auto_approve"
+  },
+  {
+    "claimant_name": "Rohan Iyer",
+    "policy_number": "HLT-P-20001",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Cataract surgery done as a day-care procedure at City Eye Hospital.",
+    "claimed_amount": 18000,
+    "documents": [
+      {
+        "name": "hospital_bill.pdf",
+        "content": "Day-care cataract surgery bill Rs. 18,000",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G03-health-cataract",
+    "expected_decision": "auto_approve"
+  },
+  {
+    "claimant_name": "Sneha Reddy",
+    "policy_number": "TRV-P-40001",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Checked-in baggage lost on flight to Singapore. Airline issued Property Irregularity Report.",
+    "claimed_amount": 9500,
+    "documents": [
+      {
+        "name": "pir.pdf",
+        "content": "Property Irregularity Report: 1 bag lost, value Rs. 9,500",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G04-travel-baggage",
+    "expected_decision": "auto_approve"
+  },
+  {
+    "claimant_name": "Vikram Khan",
+    "policy_number": "MOT-P-10003",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Motorcycle scratched and indicator broken after a minor fall on a wet road.",
+    "claimed_amount": 6200,
+    "documents": [
+      {
+        "name": "repair_estimate.pdf",
+        "content": "Repairs Rs. 6,200",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G05-motor-bike-scratch",
+    "expected_decision": "auto_approve"
+  },
+  {
+    "claimant_name": "Ananya Gupta",
+    "policy_number": "HLT-P-20002",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Hospitalised for dengue fever for 3 days, IV fluids and monitoring.",
+    "claimed_amount": 22000,
+    "documents": [
+      {
+        "name": "hospital_bill.pdf",
+        "content": "Hospital bill: 3 days admission Rs. 22,000",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G06-health-dengue",
+    "expected_decision": "auto_approve"
+  },
+  {
+    "claimant_name": "Karan Nair",
+    "policy_number": "PRP-P-30001",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Small kitchen fire damaged the chimney and cabinets. Fire brigade report attached.",
+    "claimed_amount": 20000,
+    "documents": [
+      {
+        "name": "fire_report.pdf",
+        "content": "Fire damage assessment Rs. 20,000",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G07-property-fire-small",
+    "expected_decision": "auto_approve"
+  },
+  {
+    "claimant_name": "Meera Singh",
+    "policy_number": "TRV-P-40001",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Trip cancelled because of sudden illness. Doctor certificate and booking proof attached.",
+    "claimed_amount": 15000,
+    "documents": [
+      {
+        "name": "doctor_certificate.pdf",
+        "content": "Unfit to travel; non-refundable booking Rs. 15,000",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G08-travel-cancellation",
+    "expected_decision": "auto_approve"
+  },
+  {
+    "claimant_name": "Arjun Das",
+    "policy_number": "MOT-P-10001",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Car collision at an intersection. Front bumper, headlight and bonnet damaged.",
+    "claimed_amount": 85000,
+    "documents": [
+      {
+        "name": "repair_estimate.pdf",
+        "content": "Repair estimate Rs. 85,000",
+        "content_type": "text/plain"
+      },
+      {
+        "name": "photos.zip",
+        "content": "Accident photos",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G09-motor-collision",
+    "expected_decision": "route_to_adjuster"
+  },
+  {
+    "claimant_name": "Divya Joshi",
+    "policy_number": "HLT-P-20001",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Knee replacement surgery, 5 days hospitalisation.",
+    "claimed_amount": 250000,
+    "documents": [
+      {
+        "name": "hospital_bill.pdf",
+        "content": "Surgery and stay Rs. 2,50,000",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G10-health-surgery",
+    "expected_decision": "route_to_adjuster"
+  },
+  {
+    "claimant_name": "Nikhil Mehta",
+    "policy_number": "PRP-P-30002",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Flood water entered the ground floor and damaged furniture and appliances.",
+    "claimed_amount": 400000,
+    "documents": [
+      {
+        "name": "damage_assessment.pdf",
+        "content": "Flood damage assessment Rs. 4,00,000",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G11-property-flood",
+    "expected_decision": "route_to_adjuster"
+  },
+  {
+    "claimant_name": "Kavya Kulkarni",
+    "policy_number": "MOT-P-10002",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Car accident on highway, side panel and door damaged. Repair estimate will follow.",
+    "claimed_amount": 120000,
+    "documents": [],
+    "flags": [],
+    "case_id": "G12-motor-no-documents",
+    "expected_decision": "route_to_adjuster"
+  },
+  {
+    "claimant_name": "Aditya Chopra",
+    "policy_number": "TRV-P-40001",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Two checked-in bags lost on an international flight, including a laptop.",
+    "claimed_amount": 45000,
+    "documents": [
+      {
+        "name": "pir.pdf",
+        "content": "Property Irregularity Report: 2 bags lost",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G13-travel-baggage-high",
+    "expected_decision": "route_to_adjuster"
+  },
+  {
+    "claimant_name": "Riya Menon",
+    "policy_number": "HLT-P-20002",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-02-01",
+    "incident_description": "Normal delivery at City Hospital, 2 days stay.",
+    "claimed_amount": 40000,
+    "documents": [
+      {
+        "name": "hospital_bill.pdf",
+        "content": "Delivery and stay Rs. 40,000",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G14-health-maternity",
+    "expected_decision": "route_to_adjuster"
+  },
+  {
+    "claimant_name": "Sanjay Rao",
+    "policy_number": "PRP-P-30001",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "House burglary overnight, laptop and jewellery stolen. FIR filed.",
+    "claimed_amount": 150000,
+    "documents": [
+      {
+        "name": "fir.pdf",
+        "content": "FIR copy: burglary reported",
+        "content_type": "text/plain"
+      },
+      {
+        "name": "valuation.pdf",
+        "content": "Stolen items valued Rs. 1,50,000",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G15-property-burglary",
+    "expected_decision": "route_to_adjuster"
+  },
+  {
+    "claimant_name": "Pooja Sharma",
+    "policy_number": "MOT-P-10003",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Car stolen from apartment parking overnight. FIR filed within 24 hours.",
+    "claimed_amount": 300000,
+    "documents": [
+      {
+        "name": "fir.pdf",
+        "content": "FIR copy: vehicle theft reported",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [],
+    "case_id": "G16-motor-theft",
+    "expected_decision": "route_to_adjuster"
+  },
+  {
+    "claimant_name": "Manish Patel",
+    "policy_number": "MOT-P-10001",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Car engine and paint show wear and tear after 4 years of use. Requesting replacement of worn parts.",
+    "claimed_amount": 15000,
+    "documents": [
+      {
+        "name": "inspection.pdf",
+        "content": "Inspection: general wear and tear, no accident",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [
+      "wear_and_tear"
+    ],
+    "case_id": "G17-motor-wear-tear",
+    "expected_decision": "propose_deny"
+  },
+  {
+    "claimant_name": "Ishita Iyer",
+    "policy_number": "MOT-P-10002",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Car accident while driving without a valid licence. Front damage.",
+    "claimed_amount": 45000,
+    "documents": [
+      {
+        "name": "repair_estimate.pdf",
+        "content": "Repair estimate Rs. 45,000",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [
+      "no_valid_licence"
+    ],
+    "case_id": "G18-motor-no-licence",
+    "expected_decision": "propose_deny"
+  },
+  {
+    "claimant_name": "Varun Reddy",
+    "policy_number": "HLT-P-20001",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "OPD consultation for fever, doctor prescribed medicines. No admission.",
+    "claimed_amount": 3000,
+    "documents": [
+      {
+        "name": "prescription.pdf",
+        "content": "OPD prescription Rs. 3,000",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [
+      "opd_only"
+    ],
+    "case_id": "G19-health-opd",
+    "expected_decision": "propose_deny"
+  },
+  {
+    "claimant_name": "Nisha Khan",
+    "policy_number": "HLT-P-20002",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-10",
+    "incident_description": "Hospital treatment for diabetes, a pre-existing condition diagnosed 3 years ago.",
+    "claimed_amount": 60000,
+    "documents": [
+      {
+        "name": "hospital_bill.pdf",
+        "content": "Diabetes treatment Rs. 60,000",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": [
+      "pre_existing"
+    ],
+    "case_id": "G20-health-pre-existing",
+    "expected_decision": "propose_deny"
+  }
+]

@@ -1,0 +1,642 @@
+[
+  {
+    "claimant_name": "Sneha Sharma",
+    "policy_number": "MOT-P-10000",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-18",
+    "incident_description": "Car bumper dented in parking. Repair estimate attached.",
+    "claimed_amount": 89810,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Car bumper dented in parking. Repair estimate attached. Assessed value Rs. 89,810.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Meera Iyer",
+    "policy_number": "MOT-P-10001",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-13",
+    "incident_description": "Windshield cracked on the highway, needs replacement.",
+    "claimed_amount": 17024,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Windshield cracked on the highway, needs replacement. Assessed value Rs. 17,024.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Ishita Patel",
+    "policy_number": "MOT-P-10002",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-23",
+    "incident_description": "Bike skidded on a wet road, handle and mirror damaged.",
+    "claimed_amount": 26174,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Bike skidded on a wet road, handle and mirror damaged. Assessed value Rs. 26,174.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Aarav Patel",
+    "policy_number": "MOT-P-10003",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-17",
+    "incident_description": "Car collision at a signal, front end damaged.",
+    "claimed_amount": 38331,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Car collision at a signal, front end damaged. Assessed value Rs. 38,331.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Nisha Sharma",
+    "policy_number": "MOT-P-10004",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-16",
+    "incident_description": "Car stolen from office parking, FIR filed.",
+    "claimed_amount": 332475,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Car stolen from office parking, FIR filed. Assessed value Rs. 332,475.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Ishita Nair",
+    "policy_number": "HLT-P-10005",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-24",
+    "incident_description": "Hospitalised for dengue, 3 days admission.",
+    "claimed_amount": 57590,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Hospitalised for dengue, 3 days admission. Assessed value Rs. 57,590.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Arjun Chopra",
+    "policy_number": "HLT-P-10006",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-15",
+    "incident_description": "Knee surgery and 4 days hospital stay.",
+    "claimed_amount": 274472,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Knee surgery and 4 days hospital stay. Assessed value Rs. 274,472.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Riya Gupta",
+    "policy_number": "HLT-P-10007",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-02-14",
+    "incident_description": "Cataract surgery as day-care procedure.",
+    "claimed_amount": 26438,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Cataract surgery as day-care procedure. Assessed value Rs. 26,438.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Nikhil Patel",
+    "policy_number": "HLT-P-10008",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-22",
+    "incident_description": "Fracture treatment after a fall, plaster and physio.",
+    "claimed_amount": 48221,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Fracture treatment after a fall, plaster and physio. Assessed value Rs. 48,221.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Kavya Menon",
+    "policy_number": "PRP-P-10009",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-02-18",
+    "incident_description": "Kitchen fire damaged cabinets and chimney.",
+    "claimed_amount": 21338,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Kitchen fire damaged cabinets and chimney. Assessed value Rs. 21,338.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Priya Kulkarni",
+    "policy_number": "PRP-P-10010",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-02-27",
+    "incident_description": "Flood water damaged ground floor furniture.",
+    "claimed_amount": 523167,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Flood water damaged ground floor furniture. Assessed value Rs. 523,167.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Aditya Patel",
+    "policy_number": "PRP-P-10011",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-19",
+    "incident_description": "Burglary overnight, electronics stolen. FIR filed.",
+    "claimed_amount": 112722,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Burglary overnight, electronics stolen. FIR filed. Assessed value Rs. 112,722.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Nisha Rao",
+    "policy_number": "TRV-P-10012",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-02-28",
+    "incident_description": "Checked-in baggage lost, PIR issued by airline.",
+    "claimed_amount": 35177,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Checked-in baggage lost, PIR issued by airline. Assessed value Rs. 35,177.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Rohan Sharma",
+    "policy_number": "TRV-P-10013",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-17",
+    "incident_description": "Trip cancelled due to illness, booking non-refundable.",
+    "claimed_amount": 22601,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Trip cancelled due to illness, booking non-refundable. Assessed value Rs. 22,601.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Rohan Menon",
+    "policy_number": "MOT-P-10014",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-13",
+    "incident_description": "Car bumper dented in parking. Repair estimate attached.",
+    "claimed_amount": 43930,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Car bumper dented in parking. Repair estimate attached. Assessed value Rs. 43,930.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Arjun Singh",
+    "policy_number": "MOT-P-10015",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-21",
+    "incident_description": "Windshield cracked on the highway, needs replacement.",
+    "claimed_amount": 21455,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Windshield cracked on the highway, needs replacement. Assessed value Rs. 21,455.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Kavya Gupta",
+    "policy_number": "MOT-P-10016",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-18",
+    "incident_description": "Bike skidded on a wet road, handle and mirror damaged.",
+    "claimed_amount": 9329,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Bike skidded on a wet road, handle and mirror damaged. Assessed value Rs. 9,329.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Nisha Mehta",
+    "policy_number": "MOT-P-10017",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-27",
+    "incident_description": "Car collision at a signal, front end damaged.",
+    "claimed_amount": 48717,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Car collision at a signal, front end damaged. Assessed value Rs. 48,717.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Meera Iyer",
+    "policy_number": "MOT-P-10018",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-02-22",
+    "incident_description": "Car stolen from office parking, FIR filed.",
+    "claimed_amount": 391136,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Car stolen from office parking, FIR filed. Assessed value Rs. 391,136.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Ishita Reddy",
+    "policy_number": "HLT-P-10019",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-20",
+    "incident_description": "Hospitalised for dengue, 3 days admission.",
+    "claimed_amount": 32691,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Hospitalised for dengue, 3 days admission. Assessed value Rs. 32,691.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Priya Reddy",
+    "policy_number": "HLT-P-10020",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-20",
+    "incident_description": "Knee surgery and 4 days hospital stay.",
+    "claimed_amount": 340948,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Knee surgery and 4 days hospital stay. Assessed value Rs. 340,948.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Arjun Patel",
+    "policy_number": "HLT-P-10021",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-28",
+    "incident_description": "Cataract surgery as day-care procedure.",
+    "claimed_amount": 21572,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Cataract surgery as day-care procedure. Assessed value Rs. 21,572.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Karan Mehta",
+    "policy_number": "HLT-P-10022",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-02-22",
+    "incident_description": "Fracture treatment after a fall, plaster and physio.",
+    "claimed_amount": 61245,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Fracture treatment after a fall, plaster and physio. Assessed value Rs. 61,245.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Sanjay Iyer",
+    "policy_number": "PRP-P-10023",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-02-14",
+    "incident_description": "Kitchen fire damaged cabinets and chimney.",
+    "claimed_amount": 72978,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Kitchen fire damaged cabinets and chimney. Assessed value Rs. 72,978.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Ishita Das",
+    "policy_number": "PRP-P-10024",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-02-28",
+    "incident_description": "Flood water damaged ground floor furniture.",
+    "claimed_amount": 229303,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Flood water damaged ground floor furniture. Assessed value Rs. 229,303.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Varun Nair",
+    "policy_number": "PRP-P-10025",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-02-17",
+    "incident_description": "Burglary overnight, electronics stolen. FIR filed.",
+    "claimed_amount": 192311,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Burglary overnight, electronics stolen. FIR filed. Assessed value Rs. 192,311.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Manish Singh",
+    "policy_number": "TRV-P-10026",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-11",
+    "incident_description": "Checked-in baggage lost, PIR issued by airline.",
+    "claimed_amount": 12532,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Checked-in baggage lost, PIR issued by airline. Assessed value Rs. 12,532.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Vikram Mehta",
+    "policy_number": "TRV-P-10027",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-23",
+    "incident_description": "Trip cancelled due to illness, booking non-refundable.",
+    "claimed_amount": 17185,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Trip cancelled due to illness, booking non-refundable. Assessed value Rs. 17,185.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Rohan Nair",
+    "policy_number": "MOT-P-10028",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-02-24",
+    "incident_description": "Car bumper dented in parking. Repair estimate attached.",
+    "claimed_amount": 84172,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Car bumper dented in parking. Repair estimate attached. Assessed value Rs. 84,172.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Arjun Das",
+    "policy_number": "MOT-P-10029",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-13",
+    "incident_description": "Windshield cracked on the highway, needs replacement.",
+    "claimed_amount": 26338,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Windshield cracked on the highway, needs replacement. Assessed value Rs. 26,338.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Ishita Chopra",
+    "policy_number": "MOT-P-10030",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-02-20",
+    "incident_description": "Bike skidded on a wet road, handle and mirror damaged.",
+    "claimed_amount": 26338,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Bike skidded on a wet road, handle and mirror damaged. Assessed value Rs. 26,338.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Divya Nair",
+    "policy_number": "MOT-P-10031",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-24",
+    "incident_description": "Car collision at a signal, front end damaged.",
+    "claimed_amount": 59242,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Car collision at a signal, front end damaged. Assessed value Rs. 59,242.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Arjun Das",
+    "policy_number": "MOT-P-10032",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-26",
+    "incident_description": "Car stolen from office parking, FIR filed.",
+    "claimed_amount": 200850,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Car stolen from office parking, FIR filed. Assessed value Rs. 200,850.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Divya Menon",
+    "policy_number": "HLT-P-10033",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-26",
+    "incident_description": "Hospitalised for dengue, 3 days admission.",
+    "claimed_amount": 21973,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Hospitalised for dengue, 3 days admission. Assessed value Rs. 21,973.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Karan Iyer",
+    "policy_number": "HLT-P-10034",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-02-15",
+    "incident_description": "Knee surgery and 4 days hospital stay.",
+    "claimed_amount": 279637,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Knee surgery and 4 days hospital stay. Assessed value Rs. 279,637.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Manish Rao",
+    "policy_number": "HLT-P-10035",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-20",
+    "incident_description": "Cataract surgery as day-care procedure.",
+    "claimed_amount": 23837,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Cataract surgery as day-care procedure. Assessed value Rs. 23,837.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Aarav Patel",
+    "policy_number": "HLT-P-10036",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-02-19",
+    "incident_description": "Fracture treatment after a fall, plaster and physio.",
+    "claimed_amount": 84042,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Fracture treatment after a fall, plaster and physio. Assessed value Rs. 84,042.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Priya Reddy",
+    "policy_number": "PRP-P-10037",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-12",
+    "incident_description": "Kitchen fire damaged cabinets and chimney.",
+    "claimed_amount": 30692,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Kitchen fire damaged cabinets and chimney. Assessed value Rs. 30,692.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Pooja Menon",
+    "policy_number": "PRP-P-10038",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-01-27",
+    "incident_description": "Flood water damaged ground floor furniture.",
+    "claimed_amount": 144907,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Flood water damaged ground floor furniture. Assessed value Rs. 144,907.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "claimant_name": "Vikram Iyer",
+    "policy_number": "PRP-P-10039",
+    "policy_start_date": "2025-01-01",
+    "incident_date": "2026-03-25",
+    "incident_description": "Burglary overnight, electronics stolen. FIR filed.",
+    "claimed_amount": 280758,
+    "documents": [
+      {
+        "name": "supporting_document.pdf",
+        "content": "Burglary overnight, electronics stolen. FIR filed. Assessed value Rs. 280,758.",
+        "content_type": "text/plain"
+      }
+    ],
+    "flags": []
+  }
+]
